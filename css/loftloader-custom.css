@@ -1,0 +1,15 @@
+#loftloader-wrapper .loader-section {
+	background: #091919;
+}
+
+#loftloader-wrapper .loader-section {
+	opacity: 0.95;
+}
+
+#loftloader-wrapper.pl-imgloading #loader {
+	width: 230px;
+}
+#loftloader-wrapper.pl-imgloading #loader span {
+	background-size: cover;
+	background-image: url(../images/logo.png);
+}

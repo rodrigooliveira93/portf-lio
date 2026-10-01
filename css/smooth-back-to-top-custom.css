@@ -1,0 +1,44 @@
+.smooth-back-to-top-button {
+                    bottom: 10px;
+                    height: 46px;
+                    width: 46px;
+                    border-radius: 46px;
+                    background-color: #ffffff;
+                    box-shadow: inset 0 0 0 2px #cccccc;
+                }
+
+                .smooth-back-to-top-button.btn-left-side {
+                    left: 10px;
+                }
+
+                .smooth-back-to-top-button.btn-right-side {
+                    right: 10px;
+                }
+
+				.smooth-back-to-top-button.btn-center {
+					inset-inline: 0;
+					margin-inline: auto;
+				}
+
+                .smooth-back-to-top-button::after {
+                    inset: 0;
+                    color: #1f2029;
+                    font-size: 24px;
+                    content: '\e900';
+                    line-height: 1;
+                    position: absolute;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+                .smooth-back-to-top-button:hover::after {
+                    color: #617061;
+                }
+
+                .smooth-back-to-top-button svg.progress-circle path,
+                .smooth-back-to-top-button svg.progress-circle rect {
+                    stroke: #1f2029;
+                    stroke-width: 2px;
+                    z-index: 5;
+                }
