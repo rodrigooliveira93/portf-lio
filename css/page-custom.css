@@ -67,6 +67,10 @@ body,
   }
 }
 
+.et_pb_text_4 .et_pb_text_inner {
+  max-width: 640px;
+}
+
 .b-consulting-5-imgfc-sc .et_pb_image img {
   object-fit: cover;
   object-position: center 40%;
